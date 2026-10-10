@@ -11,11 +11,14 @@ def inverse_2x2(matrix: list[list[float]]) -> list[list[float]] | None:
     
     """
     # Your code here
-    try:
-        A = np.array(matrix)
-        A_inv = np.linalg.inv(A)
-        return A_inv
-    except np.linalg.LinAlgError:
-        return None
+    a, b = matrix[0]
+    c, d = matrix[1]
 
+    det = a*d - b*c
+    if det == 0:
+        return None
+    return[
+        [d/det, -b/det],
+        [-c/det, a/det]
+    ]
     pass

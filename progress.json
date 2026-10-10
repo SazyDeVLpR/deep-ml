@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:36:20.367Z",
+  "generated_at": "2026-10-10T13:09:57.898Z",
   "items": {
     "problem:83": {
       "kind": "problem",
@@ -214,9 +214,9 @@
       "url": "https://www.deep-ml.com/problems/8",
       "path": "problems/0008-calculate-2x2-matrix-inverse",
       "first_solved_at": "2026-10-09T19:36:19.549Z",
-      "last_pushed_at": "2026-10-09T19:36:19.549Z",
+      "last_pushed_at": "2026-10-10T13:09:56.690Z",
       "language": "python",
-      "lines": 21
+      "lines": 24
     }
   }
 }
